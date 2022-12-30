@@ -23,7 +23,7 @@ disk: 50GB
 Like:
 ```
 gcloud compute instances create cks-controlplane --zone=us-east1-b \
---machine-type=e2-standard-4 \
+--machine-type=e2-medium \
 --image=ubuntu-2004-focal-v20220419 \
 --image-project=ubuntu-os-cloud \
 --boot-disk-size=50GB
@@ -49,7 +49,7 @@ disk: 50GB
 Like:
 ```
 gcloud compute instances create cks-worker --zone=us-east1-b \
---machine-type=e2-standard-4 \
+--machine-type=e2-medium \
 --image=ubuntu-2004-focal-v20220419 \
 --image-project=ubuntu-os-cloud \
 --boot-disk-size=50GB
