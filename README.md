@@ -33,6 +33,11 @@ gcloud compute instances create cks-controlplane --zone=us-east1-b \
 ```
 sudo -i
 bash <(curl -s https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/latest/install_master.sh)
+
+or (no CNI) 
+
+bash <(curl -s https://raw.githubusercontent.com/vasquca1/cks-course-environment/master/cluster-setup/latest/install_master.sh)
+
 ```
 
 ### Setup cks-worker
