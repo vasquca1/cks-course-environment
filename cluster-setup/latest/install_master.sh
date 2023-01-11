@@ -157,7 +157,7 @@ mkdir -p ~/.kube
 sudo cp -i /etc/kubernetes/admin.conf ~/.kube/config
 
 ### CNI
-kubectl apply -f https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/calico.yaml
+#kubectl apply -f https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/calico.yaml
 
 
 # etcdctl
